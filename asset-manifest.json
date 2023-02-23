@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bary-portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/bary-portfolio/static/js/main.23d453fa.js",
+    "static/js/787.25a8a389.chunk.js": "/bary-portfolio/static/js/787.25a8a389.chunk.js",
+    "index.html": "/bary-portfolio/index.html",
+    "main.e6c13ad2.css.map": "/bary-portfolio/static/css/main.e6c13ad2.css.map",
+    "main.23d453fa.js.map": "/bary-portfolio/static/js/main.23d453fa.js.map",
+    "787.25a8a389.chunk.js.map": "/bary-portfolio/static/js/787.25a8a389.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.23d453fa.js"
+  ]
+}
