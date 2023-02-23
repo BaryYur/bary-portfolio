@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/bary-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/bary-portfolio/static/js/main.acccec97.js",
-    "static/js/787.25a8a389.chunk.js": "/bary-portfolio/static/js/787.25a8a389.chunk.js",
+    "main.css": "/bary-portfolio/static/css/main.05017183.css",
+    "main.js": "/bary-portfolio/static/js/main.17f35145.js",
     "index.html": "/bary-portfolio/index.html",
-    "main.e6c13ad2.css.map": "/bary-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.acccec97.js.map": "/bary-portfolio/static/js/main.acccec97.js.map",
-    "787.25a8a389.chunk.js.map": "/bary-portfolio/static/js/787.25a8a389.chunk.js.map"
+    "main.05017183.css.map": "/bary-portfolio/static/css/main.05017183.css.map",
+    "main.17f35145.js.map": "/bary-portfolio/static/js/main.17f35145.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.acccec97.js"
+    "static/css/main.05017183.css",
+    "static/js/main.17f35145.js"
   ]
 }
