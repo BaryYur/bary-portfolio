@@ -1,10 +1,18 @@
 import React from "react";
 
+import { Routes, Route } from "react-router-dom";
+
+import StartingPage from "./pages/StartingPage";
+import NotFoundPage from "./pages/NotFoundPage";
+
 const App = () => {
     return (
-        <div className="App">
-            <h1>my portfolio</h1>
-        </div>
+        <>
+            <Routes>
+                <Route path="/bary-portfolio" element={<StartingPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+        </>
     );
 }
 
