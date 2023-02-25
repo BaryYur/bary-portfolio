@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bary-portfolio/static/css/main.5ed7c382.css",
-    "main.js": "/bary-portfolio/static/js/main.d24791ff.js",
+    "main.js": "/bary-portfolio/static/js/main.e4a1b2e2.js",
     "static/media/hero-image.jpg": "/bary-portfolio/static/media/hero-image.af8ed9dc908a8f17d888.jpg",
     "static/media/not-found-page-image.jpg": "/bary-portfolio/static/media/not-found-page-image.3f4d7fda31bed5dec657.jpg",
     "index.html": "/bary-portfolio/index.html",
     "main.5ed7c382.css.map": "/bary-portfolio/static/css/main.5ed7c382.css.map",
-    "main.d24791ff.js.map": "/bary-portfolio/static/js/main.d24791ff.js.map"
+    "main.e4a1b2e2.js.map": "/bary-portfolio/static/js/main.e4a1b2e2.js.map"
   },
   "entrypoints": [
     "static/css/main.5ed7c382.css",
-    "static/js/main.d24791ff.js"
+    "static/js/main.e4a1b2e2.js"
   ]
 }
