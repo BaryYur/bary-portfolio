@@ -4,7 +4,6 @@ const StartingPage = () => {
     return (
         <div>
             <Header />
-
         </div>
     );
 }
