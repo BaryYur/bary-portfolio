@@ -1,0 +1,126 @@
+header {
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+.dark-header {
+    background-color: #202020;
+}
+
+header .header-wrapper,
+.hero-container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-wrapper .logo {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+header .header-wrapper nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+header .header-wrapper nav ul li button,
+header .header-wrapper nav ul li a {
+    color: royalblue;
+    font-weight: 600;
+}
+
+header .header-wrapper nav ul li .main-link {
+    font-size: 18px;
+}
+
+header .header-wrapper nav ul li .active:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: royalblue;
+    border-radius: 20px;
+    margin-top: 2px;
+    transform: scaleX(1);
+}
+
+header .header-wrapper nav ul li .main-link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    margin-top: 2px;
+    transition: all 0.2s ease-in;
+}
+
+header .header-wrapper nav ul li .main-link:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: royalblue;
+    border-radius: 20px;
+    margin-top: 2px;
+    transform: scaleX(1);
+    transition: all 0.2s ease-in;;
+}
+
+header .header-wrapper nav ul li:nth-child(3) {
+    margin-right: 30px;
+}
+
+header .header-wrapper nav ul li:last-child {
+    margin-left: 10px;
+}
+
+header .header-wrapper nav ul li button .dark-icon {
+    color: #505050;
+}
+
+header .header-wrapper nav ul li button .light-icon {
+    color: white;
+}
+
+.hero-container  {
+    padding: 100px 0 30px 0;
+}
+
+.hero-container .hero-titles {
+    align-self: flex-start;
+    padding-top: 50px;
+}
+
+.hero-container .hero-titles h2 {
+    padding: 10px;
+    border: 1px solid royalblue;
+    color: royalblue;
+    font-size: 18px;
+    margin-bottom: 20px ;
+}
+
+.hero-container .hero-titles h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero-container .hero-titles p {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.hero-container img {
+    width: 600px;
+    /*mix-blend-mode: multiply;*/
+    border-radius: 5px;
+}

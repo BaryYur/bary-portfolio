@@ -1,0 +1,13 @@
+main {
+    padding: 30px 0;
+    background-color: whitesmoke;
+}
+
+.main-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.dark-main {
+    background-color: rgb(72, 71, 71);
+}
