@@ -23,6 +23,13 @@ header .header-wrapper .logo {
     font-size: 35px;
     font-weight: bold;
     font-family: sans-serif;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    text-align: center;
 }
 
 header .header-wrapper nav ul {
@@ -34,46 +41,50 @@ header .header-wrapper nav ul {
 
 header .header-wrapper nav ul li button,
 header .header-wrapper nav ul li a {
-    color: royalblue;
+    color: #0091D5;
     font-weight: 600;
+}
+
+header .header-wrapper nav ul li a svg {
+    font-size: 28px;
 }
 
 header .header-wrapper nav ul li .main-link {
     font-size: 18px;
 }
 
-header .header-wrapper nav ul li .active:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: royalblue;
-    border-radius: 20px;
-    margin-top: 2px;
-    transform: scaleX(1);
-}
+/*header .header-wrapper nav ul li .active:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 3px;*/
+/*    background-color: royalblue;*/
+/*    border-radius: 20px;*/
+/*    margin-top: 2px;*/
+/*    transform: scaleX(1);*/
+/*}*/
 
-header .header-wrapper nav ul li .main-link:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    border-radius: 20px;
-    margin-top: 2px;
-    transition: all 0.2s ease-in;
-}
+/*header .header-wrapper nav ul li .main-link:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 3px;*/
+/*    border-radius: 20px;*/
+/*    margin-top: 2px;*/
+/*    transition: all 0.2s ease-in;*/
+/*}*/
 
-header .header-wrapper nav ul li .main-link:hover::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: royalblue;
-    border-radius: 20px;
-    margin-top: 2px;
-    transform: scaleX(1);
-    transition: all 0.2s ease-in;;
-}
+/*header .header-wrapper nav ul li .main-link:hover::after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 3px;*/
+/*    background-color: royalblue;*/
+/*    border-radius: 20px;*/
+/*    margin-top: 2px;*/
+/*    transform: scaleX(1);*/
+/*    transition: all 0.2s ease-in;;*/
+/*}*/
 
 header .header-wrapper nav ul li:nth-child(3) {
     margin-right: 30px;
@@ -102,10 +113,10 @@ header .header-wrapper nav ul li button .light-icon {
 
 .hero-container .hero-titles h2 {
     padding: 10px;
-    border: 1px solid royalblue;
-    color: royalblue;
+    border: 1px solid #0091D5;
+    color: #0091D5;
     font-size: 18px;
-    margin-bottom: 20px ;
+    margin-bottom: 10px;
 }
 
 .hero-container .hero-titles h1 {
@@ -114,9 +125,14 @@ header .header-wrapper nav ul li button .light-icon {
     font-weight: bold;
 }
 
-.hero-container .hero-titles p {
+.hero-container .hero-titles h3 {
     font-family: sans-serif;
     font-weight: 600;
+}
+
+.hero-container .hero-titles p {
+    font-family: sans-serif;
+    font-weight: 400;
 }
 
 .hero-container img {
