@@ -12,6 +12,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Yura | Personal Portfolio",
   description: "Yura is a frontend developer with 1 year of experience.",
+  icons: {
+    icon: [
+      {
+        // media: "(prefers-color-scheme: light)",
+        url: "/logo-icon.png",
+        href: "/logo-icon.png",
+      }
+    ]
+  }
 };
 
 export default function RootLayout({

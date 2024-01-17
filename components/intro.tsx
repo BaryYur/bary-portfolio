@@ -66,7 +66,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Yura.</span> I'm a{" "}
         <span className="font-bold">frontend developer</span> with{" "}
-        <span className="font-bold">1 year</span> of experience. I enjoy
+        <span className="font-bold">1.5 year</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React and Next.js</span>.
       </motion.h1>
@@ -102,7 +102,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/yura-baryshev-012125266/"
           target="_blank"
         >
           <BsLinkedin />
@@ -110,7 +110,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/BaryYur"
           target="_blank"
         >
           <FaGithubSquare />

@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import notesApp from "@/public/notes-app.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import notesAppImg from "@/public/notes-app.png";
+import ednistImg from "@/public/ednist.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Level up coding, from Chalangesoft",
+    location: "Cherkasy",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 7 months of studying. .",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021-2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Fullstack Developer",
+    location: "Cherkasy",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a frontend developer, almost 4 months for company called Qubyx, i did a web application for help handling their product, also i did backend to this application on NodeJS.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Frontend Developer",
+    location: "Cherkasy",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I participated in several freelance projects, for example i did web app Ednist.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
   },
 ] as const;
 
@@ -64,24 +64,27 @@ export const projectsData = [
   {
     title: "Notes App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "It's my own simple project, i did it to practice and improve my skills.",
     tags: ["React", "TypeScript", "Supabase", "Tailwind", "Shadcn/ui"],
-    imageUrl: notesApp,
+    imageUrl: notesAppImg,
+    projectLink: "https://notes-bary-app.netlify.app/app/home"
   },
   {
-    title: "rmtDev",
+    title: "Ednist construction",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Freelance project for build company. I was the front-end developer. It has features like filtering, sorting and translations.",
+    tags: ["React", "TypeScript", "Styled components", "NodeJS"],
+    imageUrl: ednistImg,
+    projectLink: "https://ednist-construction.com.ua/",
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  //   projectLink: "/"
+  // },
 ] as const;
 
 export const skillsData = [
