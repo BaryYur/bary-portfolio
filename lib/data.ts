@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Level up coding, from Chalangesoft",
+    title: "Level up coding, from Challengesoft",
     location: "Cherkasy",
     description:
       "I graduated after 7 months of studying. .",
