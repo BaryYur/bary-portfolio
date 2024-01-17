@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Level up coding, from Challengesoft",
     location: "Cherkasy",
     description:
-      "I graduated after 7 months of studying.",
+      "I graduated course after 7 months of studying.",
     icon: React.createElement(LuGraduationCap),
     date: "2021-2022",
   },
