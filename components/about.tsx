@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Few years agoI enrolled in a coding course and learned{" "}
+        Few years ago I enrolled in a coding course and learned{" "}
         <span className="font-medium">front-end web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
