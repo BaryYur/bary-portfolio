@@ -70,22 +70,22 @@ export const projectsData = [
     imageUrl: ednistImg,
     projectLink: "https://ednist-construction.com.ua/",
   },
-  {
-    title: "Brave wheel",
-    description:
-      "A project I developed with my team in Team Challenge to improve our skills.",
-    tags: ["React", "TypeScript", "Styled components", "Axios", "Material UI"],
-    imageUrl: braveWheel,
-    projectLink: "https://brave-wheels.netlify.app/home",
-  },
-  {
-    title: "Notes App",
-    description:
-      "It's my own simple project, i did it to practice and improve my skills.",
-    tags: ["React", "TypeScript", "Supabase", "Tailwind", "Shadcn/ui"],
-    imageUrl: notesAppImg,
-    projectLink: "https://notes-bary-app.netlify.app/app/home"
-  },
+  // {
+  //   title: "Brave wheel",
+  //   description:
+  //     "A project I developed with my team in Team Challenge to improve our skills.",
+  //   tags: ["React", "TypeScript", "Styled components", "Axios", "Material UI"],
+  //   imageUrl: braveWheel,
+  //   projectLink: "https://brave-wheels.netlify.app/home",
+  // },
+  // {
+  //   title: "Notes App",
+  //   description:
+  //     "It's my own simple project, i did it to practice and improve my skills.",
+  //   tags: ["React", "TypeScript", "Supabase", "Tailwind", "Shadcn/ui"],
+  //   imageUrl: notesAppImg,
+  //   projectLink: "https://notes-bary-app.netlify.app/app/home"
+  // },
   // {
   //   title: "Word Analytics",
   //   description:
